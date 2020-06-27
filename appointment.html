@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gear-Up</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="resources/vendors/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+        <script src="resources/vendors/bootstrap-4.4.1-dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/css/newstyle.css">
+        <link rel="stylesheet" type="text/css" href="resources/vendors/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/vendors/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    </head>
+    <body>
+        <header class="home-bg">
+            <div class="container-fluid">
+                <div class="fixed-top">
+                    <div class="row heading">
+                        <div class="col-lg-6 col-md-6 col-sm-4 col-xs-4">
+                            <i class="fas fas-car" aria-hidden="true"></i>
+                            <h4>GEAR UP- HOLDINGS, DAGUPAN PANGASINAN</h4>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8">
+                            <ul class="head-nav">
+                                <li><a href="myaccount.html">MY ACCOUNT</a></li>
+                                <li><a href="index.html">CHECK OUT</a></li>
+                            </ul>
+                        </div> 
+                    </div>
+                    <div class="row nv-bar">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <img src="resources/image/gear-up%20logo.png" class="logo">
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                            <ul class="navig-bar">
+                                <li>
+                                    <a href="#">HOME</a>
+                                </li>
+                                <li>
+                                    <a href="home.html#carlisting">CAR LISTING</a>
+                                </li>
+                                <li>
+                                    <a href="home.html#navtoService">SERVICES</a>
+                                </li>
+                                <li>
+                                    <a href="contact_us_logged_in.html">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h2 class="greeting">We're Happy to Serve You</h2>
+                </div>
+                <div class="forms-gr">
+                <div class="row">
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-appointment">
+                            <form method="post" action="settedappointment.html">
+                                <div class="inpt">
+                                    Name
+                                    <input type="text" name="name" id="name-appointment" required>
+                                </div>
+                                <div class="inpt">
+                                    Contact Number
+                                    <input type="number" name="contact" id="contact-appointment" required>
+                                </div>
+                                <div class="mech-prob">
+                                    <h6 class="about-text">Specify your Car Problem</h6>
+                                    <div class="row">
+                                        <div class="col-lg-4 int">                                       <label for="f_c" class="opt">Free Car Check Up</label>
+                                            <input type="checkbox" name="fix-type" id="f_c" >
+                                        </div> 
+                                        <div class="col-lg-4 int">                                       <label for="u_h" class="opt">Under your Hood/Car</label>
+                                            <input type="checkbox" name="fix-type" id="u_h">
+                                        </div>
+                                        <div class="col-lg-4 int">                                       <label for="G_S" class="opt">General Auto Service</label>
+                                            <input type="checkbox" name="fix-type" id="G_S" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <h6 class="about-text">Set the Time and Date</h6>
+                                    <div class="row">
+                                        <div class="col-lg-3"></div>
+                                        <div class="col-lg-2">
+                                            <label for="date">Date</label>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="date" min="2020-03" id="date" required>
+                                        </div>
+                                        <div class="col-lg-3"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label for="time">Time</label>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <input type="time" id="time" value="13:30" required>
+                                        </div>
+                                        <div class="col-lg-3"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-6"> 
+                                        <input type="submit" value="submit">
+                                    </div>
+                                    <div class="col-lg-3"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </header>
+         <section class="footer">
+            <div class="row">
+                <div class="footer-content">
+                    <div class="soc-footer">
+                        <a href="facebook.com"><i class="fa fa-facebook fb"></i></a>
+                        <a href="instagram.com"><i class="fa fa-instagram ig"></i></a>
+                        <a href="twitter.com"><i class="fa fa-twitter tw"></i></a>
+                    </div>
+                    <div class="foot-nav">
+                        <ul class="navbar">
+                            <li><a href="home.html">HOME</a></li>
+                            <li><a href="logged_in_about_us.html">About Us</a></li>
+                            <li><a href="contact_us_logged_in.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
